@@ -1,0 +1,29 @@
+body {
+    overflow: hidden;
+}
+
+#center {
+    display: block;
+    margin: auto;
+    margin-top: 100px; 
+}
+
+#p1 {
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 700px;
+}
+
+#p2 {
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 700px;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
