@@ -19,7 +19,6 @@ if(event.code === 'ArrowUp' && picture.style.top !== "320px"){
   }
 });
 
-
 //fadeout the center image
 document.addEventListener('keydown', function(event){
   if(event.code === 'ArrowUp' || event.code === 'ArrowDown'){
@@ -29,13 +28,11 @@ document.addEventListener('keydown', function(event){
       op-=0.01;
     }
   }
-  //collide the image and play the v
-  
+   
+  //collide the image and play the video
   if(picture.style.top === "320px"  && pic2.style.bottom ==="330px"){
     vdo.style.display ="block"
-
     console.log(vdo.style.display)
-    console.log("hi chhoti");
   }
 });
 
@@ -43,7 +40,6 @@ document.addEventListener('keydown', function(event){
 document.addEventListener('keydown', function(event){
           //stop W at center
           if(event.code === 'ArrowDown' && pic2.style.bottom !== "330px"){
-  
             sum++;
             document.getElementById("p2").style.bottom = sum + "px";
          }     
